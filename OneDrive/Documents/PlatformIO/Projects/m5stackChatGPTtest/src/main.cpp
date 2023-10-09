@@ -1,3 +1,16 @@
+//m5stack core2で動くTrue or False game
+//SDカードにwifi.txtとapi.txtを置いておく
+//ChatGPTのAPIキーはapi.txtに、wifiのSSIDとパスワードはwifi.txtにそれぞれ1行ずつ書く
+//wifi.txtの1行目がSSID、2行目がパスワードになる
+//api.txtの1行目がAPIキーになる
+//SDカードのフォーマットはFAT32
+//SDカードのファイルシステムはFAT
+//SDカードのファイル名は8文字以下にすること
+//SDカードのファイル名は半角英数字にすること
+//SDカードのファイル名は拡張子をつけないこと
+//SDカードのファイル名は小文字にすること
+//coded by monohito 2023/10/10
+
 #include <M5Core2.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
